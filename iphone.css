@@ -2,10 +2,11 @@ body{
     background-color: #000000;
 }
 textarea{
-    width: 20%;
-    height: 200px; 
-    top: 0;
-    position: absolute;
+    height: 200px;
+    left: 10%;
+    position: absolute; 
+    top: 25%;
+    width: 25%;
 }
 ul li{
     cursor: pointer;
