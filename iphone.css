@@ -1,0 +1,130 @@
+body{
+    background-color: #000000;
+}
+textarea{
+    width: 20%;
+    height: 200px; 
+    top: 0;
+    position: absolute;
+}
+ul li{
+    cursor: pointer;
+    display: inline;
+    list-style-type: none;
+    padding: 0px 10px;
+}
+.top{
+    padding-left: 0px;
+}
+.icons{
+    height: 60px;
+    padding: 22px 0px;
+}
+.container{
+    margin: 0 auto;
+    max-width: 800px;
+}
+.iphone-wrapper{
+    background: #ffffff;
+    border-radius: 50px;
+    margin: 0 auto;
+    padding-top: 755px;
+    position: relative;
+    width: 360px;
+}
+.power {
+    background: #c0c0c0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    cursor: pointer;
+    height: 4px;
+    position: absolute;
+    right: 55px;
+    top: -4px;
+    width: 45px;
+}
+
+.phone-lock {
+    cursor: pointer;
+  position: absolute;
+  background: #c0c0c0;
+  width: 1%;
+  height: 5%;
+  top: 12.5%;
+  left: -1%;
+  border-top-left-radius: .5em;
+  border-bottom-left-radius: .5em;
+}
+
+.volume {
+    cursor: pointer;
+  position: absolute;
+  background: #c0c0c0;
+  width: 1%;
+  height: 4%;
+  top: 23%;
+  left: -1%;
+  border-top-left-radius: .5em;
+  border-bottom-left-radius: .5em;
+}
+
+.volume.down{ top: 31%; }
+
+.front-camera {
+  position: absolute;
+  top: 30px;
+  left: 175px;
+  background: #000000;
+  width: 7px;
+  height: 0;
+  padding-top: 7px;
+  border-radius: 7px;
+}
+.earphone-circle{
+        position: absolute;
+    top: 7%;
+    left: 35.5%;
+    background: #000000;
+    width: 3%;
+    height: 0;
+    padding-top: 3%;
+    border-radius: 50%;
+}
+
+.earphone {
+  position: absolute;
+  top: 7%;
+  left: 42.5%;
+  background: #000000;
+  width: 15%;
+  height: 0;
+  padding-top: 3%;
+  border-radius: 1em;
+}
+.inner-screen{
+  background: url("http://s20.postimg.org/7zb7y8z4t/background.png") no-repeat;
+  background-size: 100% 100%;
+  width: 90%;
+  height: 75%;
+  position: absolute;
+  top: 12.5%;
+  left: 5%;
+}
+
+.home-button{
+    border: 1px solid #000000;
+    border-radius: 40px;
+    bottom: 15px;
+    left: 140px;
+    padding-top: 65px;
+    position: absolute;
+    width: 65px;
+}
+.bottom-overlay{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    opacity: 0.5;
+    background-color: #CCCCFF;
+    height: 125px;
+}
